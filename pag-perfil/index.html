@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela do Usuário</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    <header class="top-bar">
+        <a href="/ProjetoSA/index.html"><img src="image/logo.svg.svg" alt=""></a>
         <a href="/ProjetoSA/index.html">Início</a>
         <h2>Perfil</h2>
-        <button><a href="/ProjetoSA/pag-relatosUser/index.html">Meus Relatos</a></button>
-    </header>
+        <button>
+             <a href="/ProjetoSA/pag-relatosUser/index.html">Meus Relatos</a>
+        </button>  
+       
+      </header>
+    
+      <main class="container">
+        <h1 class="titulo">tela do usuário</h1>
+    
+        <div class="perfil">
+          <div class="foto">
+            <img src="image/perfil.png" alt="">
+          </div>
+          <div class="bio">
+            <p>Perfil com foto e bio</p>
+            <p>nome: __________</p>
+
+            <textarea rows="5" cols="40" placeholder="Digite seu feedback aqui..."></textarea>
+
+           
+
+
+
+          </div>
+        </div>
+
+    
+        <button class="btn-relatos">Meus relatos</button>
+      </main>
 </body>
 </html>
