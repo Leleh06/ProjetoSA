@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/ProjetoSA/pag-relatos/stles.css">
 </head>
+
 <body>
-    <header> 
+    <header>
         <a href="/ProjetoSA/index.html">Inicio</a>
         <h2>Publicar Relato</h2>
     </header>
-    <main>
-        <button><a href="/ProjetoSA/pag-relatosUser/index.html">Publicar</a></button>
-    </main>
+    <div class="container">
+        <div class="toggle-buttons">
+          <button>Texto</button>
+          <button>Vídeo</button>
+        </div>
+    
+        <div class="form-grid">
+          <div class="left-section">
+            <label for="nome">Nome (opcional)</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+    
+            <label for="categoria">Categoria de relato</label>
+            <input type="text" id="categoria" name="categoria" placeholder="Categoria">
+          </div>
+    
+          <div class="right-section">
+            <textarea placeholder="Escreva seu relato aqui..."></textarea>
+            <div class="terms">termos de uso</div>
+          </div>
+        </div>
+    
+        <button class="publish-button"><a class="plc" href="/ProjetoSA/pag-relatosUser/index.html">PUBLICAR</a></button>
+      </div>
 </body>
+
 </html>
