@@ -1,0 +1,89 @@
+body {
+    background-color: #c68c64;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .cadastro-box {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .logo-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    margin: 20px;
+  }
+  
+  .feito-box {
+    background-color: #d9d9d9;
+    padding: 30px 40px;
+    font-weight: bold;
+    margin-left: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  fieldset {
+    border: 2px solid #00000080; /* linha preta com leve transparência */
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #ffffff15; /* leve fundo translúcido */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  legend {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    /* padding: 0 10px; */
+  }
+  

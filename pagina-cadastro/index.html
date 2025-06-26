@@ -1,57 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header></header>
-  <main>
-    <div>
+  <main class="container">
+    <!-- CADASTRO DE ONG -->
+    <div class="cadastro-box">
       <fieldset>
-        <legend>Cadastro de ONG</legend>
-     <form>
-        <label>Nome:</label>
-        <input type="text" name="nomeOng" required/>
-    
-        <label>CNPJ:</label>
-        <input type="text" name="cnpj" required/>
-    
-        <label>Área de atuação:</label>
-        <input type="text" name="areaAtuacao" required/>
-    
-        <label>Contato:</label>
-        <input type="text" name="contato" required/>
-    
-       <button><a href="/ProjetoSA/pag-login/index.html">CADASTRAR</a></button>
-      </form>
-      </fieldset>
-      
-    </div>
-
-    <div>
-      <fieldset>
-        <legend>Cadastro de USUÁRIO</legend>
+        <legend><strong>Cadastro de ONG</strong></legend>
         <form>
           <label>Nome:</label>
-          <input type="text" name="nomeUsuario" required/>
-      
-          <!-- <label>Bairro:</label>
-          <input type="text" name="bairro"/> -->
-      
-          <label>Email:</label>
-          <input type="email" name="email" required/>
-      
-          <label>Senha:</label>
-          <input type="password" name="senha" required/>
-      
-          <input type="submit" value="CADASTRAR">
+          <input type="text" placeholder="Digite o nome da ONG">
+          
+          <label>CNPJ:</label>
+          <input type="text" placeholder="00.000.000/0000-00">
+          
+          <label>Área de atuação:</label>
+          <input type="text" placeholder="Ex: Educação, Saúde...">
+          
+          <label>Contato:</label>
+          <input type="text" placeholder="(00) 00000-0000">
+          
+          <button type="submit">CADASTRAR</button>
         </form>
       </fieldset>
     </div>
-  
+
+    <div class="logo-circle"></div>
+
+    <!-- CADASTRO DE USUÁRIO -->
+    <div class="cadastro-box">
+      <fieldset>
+        <legend><strong>Cadastro de USUÁRIO</strong></legend>
+        <form>
+          <label>Nome:</label>
+          <input type="text" placeholder="Digite seu nome completo">
+          
+          <label>Bairro:</label>
+          <input type="text" placeholder="Digite seu bairro">
+          
+          <label>Email:</label>
+          <input type="email" placeholder="exemplo@email.com">
+          
+          <label>Senha:</label>
+          <input type="password" placeholder="Crie uma senha">
+          
+          <button type="submit">CADASTRAR</button>
+        </form>
+      </fieldset>
+    </div>
   </main>
-  <footer></footer>
 </body>
 </html>
