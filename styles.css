@@ -118,3 +118,53 @@
     text-decoration: underline;
   }
   
+  .rodape {
+    background-color: #826F66;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  
+  .rodape-conteudo p {
+    margin:auto;
+    line-height: 1.5;
+  }
+  
+  .cabecalho {
+    background-color: #826F66;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* position: sticky;
+    top: 0;
+    z-index: 1000; */
+  }
+  
+  /* Logo (imagem menor e alinhada) */
+  .cabecalho .logo img {
+    height: 60px;
+    width: auto;
+  }
+  
+  /* Menu */
+  .menu {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #3A3845; /* cor ao passar o mouse */
+  }
+  
