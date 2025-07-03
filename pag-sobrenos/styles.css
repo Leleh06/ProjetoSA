@@ -1,0 +1,132 @@
+.sobre-nos {
+    background-color: #d29a6b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+}
+
+.cabecalho {
+    background-color: #b1a08d;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* position: sticky;
+     top: 0;
+     z-index: 1000; */
+}
+
+/* Logo (imagem menor e alinhada) */
+.cabecalho .logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #3A3845;
+    /* cor ao passar o mouse */
+}
+
+
+.missao {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.texto-missao {
+    width: 50%;
+    /* text-align: center; */
+}
+
+.texto-missao h2{
+  text-align: center;
+   font-size: 30px;
+   margin: 20px;
+}
+
+h2.titulo{
+  margin: 30px;
+}
+
+.texto-sobrenos{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+.texto-sobrenos p{
+    margin-bottom: 0;
+}
+
+.video {
+    width: 45%;
+    text-align: center;
+}
+
+.legenda {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+/* .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+  } */
+
+.equipe .card {
+    background-color: white;
+    width: 225px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.parceiros .card {
+    background-color: white;
+    width: 186px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.rodape {
+    background-color: #826F66;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.rodape-conteudo p {
+    margin: auto;
+    line-height: 1.5;
+}
