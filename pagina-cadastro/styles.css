@@ -1,12 +1,12 @@
 body {
-    background-color:	#EEE1D5;
+    background-color: #c68c64;
     font-family: Arial, sans-serif;
     
   }
 
 
 .cabecalho {
-  background-color: 	#9AB973;
+  background-color: #826F66;
  color: white;
  display: flex;
  justify-content: space-between;
@@ -28,14 +28,14 @@ body {
 gap: 25px;
 }
 .menu a {
- color: #393541;
+ color: white;
  text-decoration: none;
  font-weight: 600;
  font-size: 16px;
  transition: color 0.3s;
 }
 .menu a:hover {
- color: #FFF; /* cor ao passar o mouse */
+ color: #3A3845; /* cor ao passar o mouse */
 }
   
   .container {
@@ -46,15 +46,13 @@ gap: 25px;
   }
   
   .cadastro-box {
-    /* width: 300px;
-    margin-bottom: 40px; */
+    width: 300px;
+    margin-bottom: 40px;
   }
-/*   
+  
   fieldset {
     border: none;
-    background-color: #00000080;
-   
-  } */
+  }
   
   legend {
     font-size: 1.2em;
@@ -84,8 +82,8 @@ gap: 25px;
     padding: 10px 20px;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
-    background-color: #826F66;
+    border-radius: 6px;
+    background-color: #e0e0e0;
     cursor: pointer;
   }
   
@@ -112,7 +110,7 @@ gap: 25px;
     border: 2px solid #00000080; /* linha preta com leve transparência */
     border-radius: 12px;
     padding: 20px;
-    background:  #b4a49c;
+    background-color: #ffffff15; /* leve fundo translúcido */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
@@ -124,8 +122,8 @@ gap: 25px;
   }
 
   .rodape {
-      background-color:#9AB973;
-      color: #393541;
+      background-color: #826F66;
+      color: white;
       text-align: center;
       padding: 20px 10px;
       font-size: 14px;
@@ -137,12 +135,8 @@ gap: 25px;
      }
 
      .row{
-       padding: 35px;
+       padding: 30px;
        display: flex;
-       /* justify-content: center; */
-       margin-left: 0;
-       margin-right: 10px;
-       gap: 160px;
-       flex-wrap: nowrap
+       justify-content: center;
      }
   
