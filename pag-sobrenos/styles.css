@@ -1,0 +1,157 @@
+.sobre-nos {
+    background-color:	#EEE1D5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem;
+}
+
+.cabecalho {
+    background-color:#9AB973;
+    color: #393541;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* position: sticky;
+     top: 0;
+     z-index: 1000; */
+}
+
+/* Logo (imagem menor e alinhada) */
+.cabecalho .logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #3A3845;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    /* cor ao passar o mouse */
+    color: white;
+   
+}
+
+
+.missao {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.texto-missao {
+    width: 50%;
+    background-color: #b4a49c;
+    border-radius: 8px;
+    height: 400px;
+    width: 600px;
+    /* text-align: center; */
+}
+
+.texto-missao h2{
+  text-align: center;
+   font-size: 30px;
+   margin: 20px;
+}
+
+h2.titulo{
+  margin: 30px;
+}
+
+.texto-sobrenos{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+
+.texto-sobrenos p{
+    margin-bottom: 0;
+}
+
+.video {
+    width: 45%;
+    text-align: center;
+}
+
+.legenda {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+/* .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+  } */
+
+.equipe .card {
+    background-color: #826F66;
+    width: 225px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.parceiros .card {
+    background-color: #826F66;
+    width: 186px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.row{
+    padding: 10px;
+}
+
+.rodape {
+    background-color:#9AB973;
+    color: #393541;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.rodape-conteudo p {
+    margin: auto;
+    line-height: 1.5;
+}
+
+
+/* Fonte padrão do site */
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+/* Títulos mais impactantes */
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+/* Menu ou cabeçalho pode usar a fonte mais forte também */
+.navbar, header {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
