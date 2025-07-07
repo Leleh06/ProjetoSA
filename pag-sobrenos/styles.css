@@ -1,5 +1,5 @@
 .sobre-nos {
-    background-color: #d29a6b;
+    background-color: #eee1d5;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ header {
 }
 
 .cabecalho {
-    background-color: #b1a08d;
+    background-color: #9ab073;
     color: white;
     display: flex;
     padding: 10px;
@@ -35,7 +35,7 @@ header {
 }
 
 .menu a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
@@ -43,7 +43,7 @@ header {
 }
 
 .menu a:hover {
-    color: #3A3845;
+    color: #ffffff;
     /* cor ao passar o mouse */
 }
 
@@ -62,7 +62,7 @@ header {
 .texto-missao h2{
   text-align: center;
    font-size: 30px;
-   margin: 20px;
+   margin: 40px;
 }
 
 h2.titulo{
@@ -72,7 +72,9 @@ h2.titulo{
 .texto-sobrenos{
     font-size: 20px;
     margin: 10px;
-    padding: 0;
+    padding: 45px;
+    background: #826F66;
+    border-radius: 10px;
 }
 
 .texto-sobrenos p{
@@ -82,6 +84,7 @@ h2.titulo{
 .video {
     width: 45%;
     text-align: center;
+    padding-top: 45px ;
 }
 
 .legenda {
@@ -99,7 +102,7 @@ h2.titulo{
   } */
 
 .equipe .card {
-    background-color: white;
+    background-color: #826F66;
     width: 225px;
     text-align: center;
     padding: 0.5rem;
@@ -107,7 +110,7 @@ h2.titulo{
 }
 
 .parceiros .card {
-    background-color: white;
+    background-color: #826F66;
     width: 186px;
     text-align: center;
     padding: 0.5rem;
@@ -119,8 +122,8 @@ h2.titulo{
 }
 
 .rodape {
-    background-color: #826F66;
-    color: white;
+    background-color:#9ab073;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px 10px;
     font-size: 14px;

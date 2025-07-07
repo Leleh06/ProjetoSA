@@ -1,12 +1,12 @@
 body {
-    background-color: #c68c64;
+    background-color: #eee1d5;
     font-family: Arial, sans-serif;
     
   }
 
 
 .cabecalho {
-  background-color: #826F66;
+  background-color: #9ab073;
  color: white;
  display: flex;
  justify-content: space-between;
@@ -28,14 +28,14 @@ body {
 gap: 25px;
 }
 .menu a {
- color: white;
+ color: rgb(0, 0, 0);
  text-decoration: none;
  font-weight: 600;
  font-size: 16px;
  transition: color 0.3s;
 }
 .menu a:hover {
- color: #3A3845; /* cor ao passar o mouse */
+ color: #ffffff; /* cor ao passar o mouse */
 }
   
   .container {
@@ -83,7 +83,7 @@ gap: 25px;
     font-weight: bold;
     border: none;
     border-radius: 6px;
-    background-color: #e0e0e0;
+    background-color: #5c4436;
     cursor: pointer;
   }
   
@@ -112,6 +112,7 @@ gap: 25px;
     padding: 20px;
     background-color: #ffffff15; /* leve fundo translúcido */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: #826F66;
   }
 
   legend {
@@ -122,8 +123,8 @@ gap: 25px;
   }
 
   .rodape {
-      background-color: #826F66;
-      color: white;
+      background-color: #9ab073;
+      color: rgb(0, 0, 0);
       text-align: center;
       padding: 20px 10px;
       font-size: 14px;
