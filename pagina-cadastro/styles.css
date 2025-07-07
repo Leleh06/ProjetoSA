@@ -52,6 +52,7 @@ gap: 25px;
   
   fieldset {
     border: none;
+    background:  #b4a49c;
   }
   
   legend {
@@ -112,7 +113,7 @@ gap: 25px;
     padding: 20px;
     background-color: #ffffff15; /* leve fundo translúcido */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    background: #826F66;
+    background:  #b4a49c;
   }
 
   legend {
