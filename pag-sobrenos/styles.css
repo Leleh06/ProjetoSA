@@ -10,7 +10,7 @@ header {
 }
 
 .cabecalho {
-    background-color:#9AB973;
+    background-color: #9AB973;
     color: #393541;
     display: flex;
     padding: 10px;
@@ -45,7 +45,7 @@ header {
 .menu a:hover {
     /* cor ao passar o mouse */
     color: white;
-   
+
 }
 
 
@@ -64,17 +64,17 @@ header {
     /* text-align: center; */
 }
 
-.texto-missao h2{
-  text-align: center;
-   font-size: 30px;
-   margin: 40px;
+.texto-missao h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
 }
 
-h2.titulo{
-  margin: 30px;
+h2.titulo {
+    margin: 30px;
 }
 
-.texto-sobrenos{
+.texto-sobrenos {
     font-size: 20px;
     margin: 10px;
     padding: 45px;
@@ -82,14 +82,14 @@ h2.titulo{
     border-radius: 10px;
 }
 
-.texto-sobrenos p{
+.texto-sobrenos p {
     margin-bottom: 0;
 }
 
 .video {
     width: 45%;
     text-align: center;
-    padding-top: 45px ;
+    padding-top: 45px;
 }
 
 .legenda {
@@ -106,13 +106,13 @@ h2.titulo{
     justify-content: space-evenly;
   } */
 
-.equipe .card {
+ /* .equipe .card {
     background-color: #826F66;
     width: 225px;
     text-align: center;
     padding: 0.5rem;
     border-radius: 5px;
-}
+} */
 
 .parceiros .card {
     background-color: #826F66;
@@ -120,14 +120,47 @@ h2.titulo{
     text-align: center;
     padding: 0.5rem;
     border-radius: 5px;
-}
+} 
 
 .row{
     padding: 10px;
+} 
+
+.equipe .row {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Não quebra linha */
+    justify-content: space-between;
+    padding: 20px 10px;
+    gap: 15px;
+}
+
+.equipe .card {
+    background-color: #826F66;
+    flex: 1;
+    /* Ocupa o mesmo espaço que os outros */
+    max-width: 18%;
+    /* máximo 5 cards por linha */
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.equipe .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-text {
+    margin-top: 8px;
+    font-weight: 500;
 }
 
 .rodape {
-    background-color:#9AB973;
+    background-color: #9AB973;
     color: #393541;
     text-align: center;
     padding: 20px 10px;
@@ -142,19 +175,21 @@ h2.titulo{
 
 /* Fonte padrão do site */
 body {
-  font-family: 'Nunito', sans-serif;
-  font-size: 16px;
-  color: #222;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #222;
 }
 
 /* Títulos mais impactantes */
-h1, h2, h3 {
-  font-family: 'Merriweather', serif;
+h1,
+h2,
+h3 {
+    font-family: 'Merriweather', serif;
 }
 
 /* Menu ou cabeçalho pode usar a fonte mais forte também */
-.navbar, header {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+.navbar,
+header {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
-
