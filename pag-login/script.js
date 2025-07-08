@@ -1,20 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const loginButton = document.querySelector(".login-button");
-    const emailInput = document.getElementById("email");
-    const senhaInput = document.getElementById("senha");
+document.addEventListener("DOMContentLoaded", () => {
+  const loginButton = document.querySelector(".login-button");
 
-    loginButton.addEventListener("click", function (event) {
-      const email = emailInput.value.trim();
-      const senha = senhaInput.value.trim();
-        
-      if (email === "" || senha === "") {
-        event.preventDefault(); // Impede o redirecionamento
-        alert("Por favor, preencha todos os campos.");
-        return;
-      };
+  loginButton.addEventListener("click", (e) => {
+    e.preventDefault(); // evita o redirecionamento do botão <a>
 
-      // Aqui você poderia adicionar uma lógica de autenticação
-      // ou enviar para um backend com fetch(), por exemplo.
-    });
-  });
+    const email = document.querySelector("input[name='email']").value.trim();
+    const senha = document.querySelector("input[name='senha']").value.trim();
+
+    if (!email || !senha) {
+      alert("Por favor, preencha todos os campos.");
+      return;
+    }
+
+    // Simula login
+    // Simula login com qualquer email e senha (por enquanto)
+    alert("Login realizado com sucesso!");
+    window.location.href = "/index.html";
+    // redirecione como quiser
+  // } else {
+  //   alert("Email ou senha incorretos.");
+  // }
+})
+})
 

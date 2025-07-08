@@ -1,0 +1,143 @@
+body {
+    background-color: #eee1d5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #9ab073;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.usuario-container {
+    padding: 50px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.perfil-completo {
+    display: flex;
+    gap: 40px;
+    background-color: #eee1d5;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.botao-editar {
+    padding: 8px 16px;
+    border: 1px solid black;
+    background-color: #f5e3d0;
+    cursor: pointer;
+}
+
+.lado-direito {
+    flex: 1;
+}
+
+.lado-direito h2 {
+    margin-top: 0;
+}
+
+.lado-direito p {
+    margin: 8px 0;
+}
+
+.lado-direito textarea {
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #f5e3d0;
+    resize: none;
+    font-family: inherit;
+}
+
+.botoes {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.botao-relatos {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    /* transition: background 0.3s; */
+}
+
+.botao-relatos:hover {
+    background-color: #ddbfa7;
+}
+
+.rodape {
+    background-color: #9ab073;
+    color: #393541;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  
+.rodape-conteudo p {
+    margin:auto;
+    line-height: 1.5;
+}
+
+.redes-sociais {
+    margin: 10px 0;
+  }
+  
+  .redes-sociais img {
+    width: 20px;  /* ou 20px se quiser ainda menor */
+    height: auto;
+    margin: 0 8px;
+    vertical-align: middle;
+  }
+  
+  
+  .redes-sociais a:hover {
+    transform: scale(1.2);
+  }
+  
